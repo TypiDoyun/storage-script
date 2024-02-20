@@ -1,0 +1,23 @@
+{
+  "name": "storage",
+  "version": "1.0.0",
+  "description": "made by typidoyun",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TypiDoyun/storage-script.git"
+  },
+  "author": "typidoyun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TypiDoyun/storage-script/issues"
+  },
+  "homepage": "https://github.com/TypiDoyun/storage-script#readme",
+  "dependencies": {
+    "@minecraft/server": "^1.10.0-beta.1.20.70-preview.24",
+    "@minecraft/server-ui": "^1.2.0-beta.1.20.70-preview.24"
+  }
+}

@@ -1,0 +1,50 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Storage",
+		"description": "Made by typidoyun",
+		"uuid": "45e1344c-980d-4c18-ad7b-d0385028df8a",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			16,
+			100
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "3ee29dfa-da77-428f-83d7-978828298c7f",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+        {
+			"type": "script",
+			"language": "javascript",
+			"uuid": "1276f6d3-14c3-4e50-85c4-65c2df550af7",
+			"version": [
+				1,
+				0,
+				0
+			],
+			"entry": "scripts/main.js"
+		}
+	],
+    "dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.9.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.2.0-beta"
+		}
+	]
+}
